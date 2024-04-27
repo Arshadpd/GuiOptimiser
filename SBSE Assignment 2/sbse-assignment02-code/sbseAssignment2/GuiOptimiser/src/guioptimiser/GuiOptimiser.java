@@ -39,7 +39,7 @@ public class GuiOptimiser {
     private static String TARGET_APP = "calculator.jar";
     //private static final String TARGET_APP = "simpleApp.jar";
     private static final String TARGET_APP_COLOR = "color.csv";
-    private static final int TARGET_APP_RUNNINGTIME = 10000;
+    private static final int TARGET_APP_RUNNINGTIME = 1000;
     private static final String JAVA_COMMAND = "java -jar ";
     private static String parentDir = "";
 //    private static final String chargeConsumedFile = "C:/Users/mohda/Desktop/SBSE Assignment 2/sbse-assignment02-code/sbseAssignment2/GuiOptimiser/ChargeConsumed.txt";
@@ -74,7 +74,7 @@ private static final String chargeConsumedFile = "ChargeConsumed.txt";
 //        }
 
         //Logic to read and process the image files before capturing the screenshots
-        File file1 = new File("random.png");
+        File file1 = new File("random.jpeg");
         File file2 = new File("java.jpg");
         File file3 = new File("dog.jpeg");
         ArrayList<ArrayList<Integer>> RGB1;
@@ -294,10 +294,9 @@ private static final String chargeConsumedFile = "ChargeConsumed.txt";
     public static String getParentDir() {
         String dir = "";
         try {
-//            File temp = new File("temp");
-//            dir = temp.getAbsolutePath().replace("temp", "");
-//            //System.out.println(dir);
-            dir = System.getProperty("user.dir");
+            File temp = new File("temp");
+            dir = temp.getAbsolutePath().replace("temp", "");
+            //System.out.println(dir);
         } catch (Exception e) {
             e.printStackTrace();
         }

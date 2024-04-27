@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="GuiOptimiser">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SBSE Assignment 2/sbse-assignment02-code/sbseAssignment2/GuiOptimiser/calculator.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SBSE Assignment 2/sbse-assignment02-code/sbseAssignment2/GuiOptimiser/simpleApp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SBSE Assignment 2/sbse-assignment02-code/sbseAssignment2/GuiOptimiser/sbseAssignment2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SBSE Assignment 2/sbse-assignment02-code/sbseAssignment2/GuiOptimiser/GuiOptimiser.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
