@@ -77,11 +77,15 @@ private static final String chargeConsumedFile = "ChargeConsumed.txt";
         File file1 = new File("random.jpeg");
         File file2 = new File("java.jpg");
         File file3 = new File("dog.jpeg");
+
+        //ArrayList to store the pixels
         ArrayList<ArrayList<Integer>> RGB1;
         ArrayList<ArrayList<Integer>> RGB2;
         ArrayList<ArrayList<Integer>> RGB3;
 
         try {
+
+            //Reading the image files
             BufferedImage image1 = ImageIO.read(file1);
             BufferedImage image2 = ImageIO.read(file2);
             BufferedImage image3 = ImageIO.read(file3);
